@@ -159,6 +159,11 @@ body {
     fill: var(--accent-color);
 }
 
+/* .contact-link-icon .contact-link:hover,
+.contact-link-icon .contact-link:focus {
+    color: var(--accent-color);
+} */
+
 /* ==============/HEADER============== */
 
 /* ==============HERO============== */
@@ -468,10 +473,6 @@ body {
 /* =============/FOOTER============== */
 
  /* =============PORTFOLIO============== */
-.card-wrapper:hover,
-.card-wrapper:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -481,6 +482,11 @@ body {
 .portfolio-section {
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.card:hover,
+.card:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .selector {
@@ -520,6 +526,7 @@ body {
 .portfolio-btn:focus {
     background-color: var(--accent-color);
     color: #FFFFFF;
+    border-color: var(--accent-color);
 }
 
 .selector-list:not(:last-child) {
