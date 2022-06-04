@@ -138,7 +138,7 @@ body {
 
 .contact-link {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -218,8 +218,6 @@ body {
     align-items: center;
     width: 270px;
     height: 120px;
-    left: 215px;
-    top: 774px;
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
@@ -479,8 +477,8 @@ body {
     padding-bottom: 94px;
 }
 
-.card:hover,
-.card:focus {
+.card-link:hover .card-link-wrapper,
+.card-link:focus .card-link-wrapper {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
